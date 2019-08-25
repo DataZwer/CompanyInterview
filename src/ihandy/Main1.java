@@ -18,7 +18,7 @@ public class Main1 {
     private static int solution(String str) {
         if (str.length() == 0) return 0;
         char[] ch = str.toCharArray();
-        boolean flag = true;
+        boolean flag = true; 
         int count = 0;
         for (int i = ch.length-1; i >= 0; i--) {
             if (ch[i] != ' ' && (ch[i] < 'a' || ch[i] > 'z')
